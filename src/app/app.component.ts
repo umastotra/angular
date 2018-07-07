@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'my-app',
+    selector: 'app-comp',
     template: `
         <div class="container">
-         Welcome to angular
+         <h1>This is main component</h1>
+         <product-comp></product-comp>
+         <dash-comp></dash-comp>
         </div>
     `
 })
